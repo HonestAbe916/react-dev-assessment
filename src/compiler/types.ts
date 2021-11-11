@@ -12,10 +12,10 @@ export interface User {
       lat: number;
       lng: number;
     }
-    company: {
-      bs: string;
-      catchPhrase: string;
-      name: string;
-    }
+  }
+  company: {
+    bs: string;
+    catchPhrase: string;
+    name: string;
   }
 }
